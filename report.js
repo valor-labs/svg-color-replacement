@@ -1,18 +1,21 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
 const yaml = require('yamljs');
 const { JSDOM } = require('jsdom');
+const commander = require('commander');
+const tinycolor = require('tinycolor2');
 
-// Function to extract colors from a single SVG file
+const program = new commander.Command();
+
 function extractColorsFromSvg(filePath) {
   const content = fs.readFileSync(filePath, 'utf8');
   const dom = new JSDOM(content);
   const document = dom.window.document;
   const colorReport = [];
-  const uniqueColors = new Set();
 
-  // Find all elements with color-related properties
   const elements = document.querySelectorAll('[fill], [stroke], [stop-color], [flood-color], [lighting-color], [color]');
   elements.forEach(element => {
     const tag = element.tagName.toLowerCase();
@@ -23,7 +26,6 @@ function extractColorsFromSvg(filePath) {
       const value = element.getAttribute(prop);
       if (value) {
         colors.push({ prop, value });
-        uniqueColors.add(value);
       }
     });
 
@@ -35,51 +37,131 @@ function extractColorsFromSvg(filePath) {
     }
   });
 
-  return colorReport.length > 0 ? { filename: filePath, colors: colorReport, uniqueColors: Array.from(uniqueColors) } : null;
+  return colorReport.length > 0 ? { filename: filePath, colors: colorReport } : null;
 }
 
-// Function to find all SVG files in specified directories
-function findSvgFiles(directories) {
-  const svgFiles = [];
-  directories.forEach(dir => {
-    svgFiles.push(...glob.sync(`${dir}/**/*.svg`));
+function findSvgFiles(directory) {
+  return glob.sync(`${directory}/**/*.svg`);
+}
+
+// Command: analyze
+program
+  .command('analyze')
+  .description('Collect colors from SVG files and generate a list.yaml report.')
+  .option('--dir <directory>', 'Directory to search for SVG files')
+  .action((options) => {
+    const directory = options.dir || '.';
+    const svgFiles = findSvgFiles(directory);
+    const report = {
+      list: []
+    };
+
+    svgFiles.forEach(filePath => {
+      const colorsReport = extractColorsFromSvg(filePath);
+      if (colorsReport) {
+        report.list.push(colorsReport);
+      }
+    });
+
+    const yamlContent = yaml.stringify(report, 4);
+    fs.writeFileSync('list.yaml', yamlContent, 'utf8');
+    console.log('Colors analyzed and list.yaml generated.');
   });
-  return svgFiles;
-}
 
-// Main function to generate the YAML report
-function generateYamlReport(directories, outputPath) {
-  const svgFiles = findSvgFiles(directories);
-  const report = {
-    list: [],
-    summary: {
-      unique_colors: []
+// Command: summary
+program
+  .command('summary')
+  .description('Generate a summary of unique colors from list.yaml')
+  .action(() => {
+    if (!fs.existsSync('list.yaml')) {
+      console.error('Error: list.yaml not found. Please run the analyze command first.');
+      process.exit(1);
     }
-  };
 
-  const globalUniqueColors = new Set();
+    const report = yaml.load('list.yaml');
+    const globalUniqueColors = new Set();
 
-  svgFiles.forEach(filePath => {
-    const colorsReport = extractColorsFromSvg(filePath);
-    if (colorsReport) {
-      report.list.push({
-        filename: colorsReport.filename,
-        colors: colorsReport.colors
+    report.list.forEach(fileReport => {
+      fileReport.colors.forEach(colorGroup => {
+        colorGroup.colors.forEach(color => {
+          globalUniqueColors.add(color.value);
+        });
       });
-      colorsReport.uniqueColors.forEach(color => globalUniqueColors.add(color));
-    }
+    });
+
+    const summary = {
+      summary: {
+        unique_colors: Array.from(globalUniqueColors)
+      }
+    };
+
+    const yamlContent = yaml.stringify(summary, 4);
+    fs.writeFileSync('summary.yaml', yamlContent, 'utf8');
+    console.log('Summary generated and saved to summary.yaml.');
   });
 
-  report.summary.unique_colors = Array.from(globalUniqueColors);
 
-  // Convert report to YAML and save to file
-  const yamlContent = yaml.stringify(report, 4);
-  fs.writeFileSync(outputPath, yamlContent, 'utf8');
-  console.log(`YAML report generated at ${outputPath}`);
+  
+// Function to group colors by proximity
+function groupColorsByProximity(colors, proximity) {
+  const groupedColors = [];
+  const usedColors = new Set();
+
+  colors.forEach(baseColor => {
+    if (usedColors.has(baseColor)) return;
+
+    const similarColors = [];
+    const baseTinyColor = tinycolor(baseColor);
+
+    colors.forEach(color => {
+      if (baseColor === color || usedColors.has(color)) return;
+
+      const distance = tinycolor.readability(baseTinyColor, tinycolor(color));
+      if (distance >= proximity) {
+        similarColors.push(color);
+        usedColors.add(color);
+      }
+    });
+
+    groupedColors.push({
+      groupedColor: baseColor,
+      similarColors: similarColors
+    });
+
+    usedColors.add(baseColor);
+  });
+
+  return groupedColors;
 }
 
-// Example usage
-const directoriesToSearch = ['working']; // Replace with your directories
-const outputPath = 'output.yaml'; // Replace with your desired output file path
+// Command: group
+program
+  .command('group')
+  .description('Group colors based on proximity')
+  .option('--proximity <value>', 'Proximity value for grouping', parseFloat)
+  .action((options) => {
+    const proximity = options.proximity || 1.0;
 
-generateYamlReport(directoriesToSearch, outputPath);
+    if (!fs.existsSync('summary.yaml')) {
+      console.error('Error: summary.yaml not found. Please run the summary command first.');
+      process.exit(1);
+    }
+
+    const summary = yaml.load('summary.yaml');
+    const uniqueColors = summary.summary.unique_colors;
+
+    const groupedColors = groupColorsByProximity(uniqueColors, proximity);
+
+    const groupedReport = {
+      proximity: {
+        value: proximity,
+        list: groupedColors
+      }
+    };
+
+    const yamlContent = yaml.stringify(groupedReport, 4);
+    fs.writeFileSync('grouped.yaml', yamlContent, 'utf8');
+    console.log('Colors grouped by proximity and saved to grouped.yaml.');
+  });
+
+program.parse(process.argv);
