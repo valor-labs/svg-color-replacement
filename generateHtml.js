@@ -15,7 +15,7 @@ function generateHtml(groupedData, outputFile) {
         #color-groups ul { margin-top: 2rem; }
         ul { list-style-type: none; padding: 0; }
         li { margin-bottom: 10px; }
-        div { padding: 10px; color: white; font-family: Arial, sans-serif; width: 100px; margin-bottom: 1rem; text-shadow: 0px 0px 0px rgba(0,0,0,1); }
+        div { padding: 10px; color: white; font-family: Arial, sans-serif; width: 100px; margin-bottom: 1rem; text-shadow: 0px 0px 3px rgba(0, 0, 0, 1); }
     </style>
 </head>
 <body>

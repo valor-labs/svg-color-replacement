@@ -28,10 +28,8 @@ function calculateDistance(color1, color2) {
 // K-means++ Initialization
 function kMeansPlusPlusInitialization(colors, k) {
   const centroids = [];
-  // Step 1: Choose the first centroid randomly
   centroids.push(colors[Math.floor(Math.random() * colors.length)]);
 
-  // Step 2: Choose subsequent centroids based on a probability proportional to the distance from the closest centroid
   for (let i = 1; i < k; i++) {
     const distances = colors.map(color => {
       const closestCentroidDistance = Math.min(
@@ -58,7 +56,7 @@ function kMeansPlusPlusInitialization(colors, k) {
 }
 
 // Perform k-means clustering with k-means++ initialization
-function kMeans(colors, k, maxIterations = 100) {
+function kMeans(colors, k, maxIterations = 10000) {
   let centroids = kMeansPlusPlusInitialization(colors, k);
   let oldCentroids;
   let clusters = new Array(k).fill().map(() => []);
@@ -107,6 +105,33 @@ function findClosestCentroid(color, centroids) {
   return closestCentroidIndex;
 }
 
+// Identify and handle outliers
+function handleOutliers(colors, centroids, clusters, threshold) {
+  const outliers = [];
+
+  clusters.forEach((cluster, index) => {
+    cluster.forEach(color => {
+      const distance = calculateDistance(color, centroids[index]);
+      if (distance > threshold) {
+        outliers.push({ color, clusterIndex: index });
+      }
+    });
+  });
+
+  // Process outliers: Reassign them or put them in a separate cluster
+  outliers.forEach(({ color, clusterIndex }) => {
+    clusters[clusterIndex] = clusters[clusterIndex].filter(c => c !== color);
+    const closestCentroidIndex = findClosestCentroid(color, centroids);
+    if (calculateDistance(color, centroids[closestCentroidIndex]) <= threshold) {
+      clusters[closestCentroidIndex].push(color);
+    } else {
+      clusters.push([color]);
+    }
+  });
+
+  return clusters;
+}
+
 // Load summary.yaml and perform grouping
 if (!fs.existsSync('summary.yaml')) {
   console.error('Error: summary.yaml not found. Please run the summary command first.');
@@ -116,19 +141,24 @@ if (!fs.existsSync('summary.yaml')) {
 const summary = yaml.load('summary.yaml');
 const uniqueColors = summary.summary.unique_colors.map(colorToRGBArray);
 
-const numberOfGroups = 10; // You can adjust this as needed
+const numberOfGroups = 15; // You can adjust this as needed
+const threshold = 150; // Define the threshold for identifying outliers
+
 const { centroids, clusters } = kMeans(uniqueColors, numberOfGroups);
+
+// Handle outliers in the clusters
+const finalClusters = handleOutliers(uniqueColors, centroids, clusters, threshold);
 
 const groupedColors = centroids.map((centroid, index) => ({
   groupedColor: rgbArrayToHex(centroid),
-  similarColors: clusters[index].map(rgbArrayToHex),
+  similarColors: (finalClusters[index] || []).map(rgbArrayToHex),
 }));
 
 const groupedReport = {
   groups: numberOfGroups,
-  list: groupedColors,
+  list: groupedColors.filter(group => group.similarColors.length > 0),
 };
 
 const yamlContent = yaml.stringify(groupedReport, 4);
 fs.writeFileSync('grouped.yaml', yamlContent, 'utf8');
-console.log('Grouping by k-means++ saved to grouped.yaml.');
+console.log('Grouping with outlier detection saved to grouped.yaml.');

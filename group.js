@@ -11,9 +11,14 @@ if (!approach) {
 }
 
 const scriptMap = {
-  kmeans: 'group-kmeans.js',
-  kmeansplusplus: 'group-kmeansplusplus.js',
-  readability: 'group-readability.js',
+  'kmeans': 'group-kmeans.js',
+  'kmeanspp': 'group-kmeansplusplus.js',
+  'readability': 'group-readability.js',
+  'kmeanspp-readability': 'group-kmeansplusplus-readability.js',
+  'outlier': 'group-outlier-detection.js',
+  'hierarchical': 'group-hierarchical.js',
+  'kmeans-c2k': 'group-kmeans-ciede2000.js',
+  'kmeans-lab': 'group-kmeans-cielab.js',
 };
 
 if (!scriptMap[approach]) {

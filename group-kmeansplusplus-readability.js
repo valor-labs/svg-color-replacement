@@ -14,18 +14,15 @@ function rgbArrayToHex(rgbArray) {
   return tinycolor({ r: rgbArray[0], g: rgbArray[1], b: rgbArray[2] }).toHexString();
 }
 
-// Calculate the Euclidean distance between two RGB colors
+// Calculate the distance between two colors using tinycolor.readability
 function calculateDistance(color1, color2) {
-  const [r1, g1, b1] = color1;
-  const [r2, g2, b2] = color2;
-  return Math.sqrt(
-    Math.pow(r2 - r1, 2) +
-    Math.pow(g2 - g1, 2) +
-    Math.pow(b2 - b1, 2)
-  );
+  const color1Hex = tinycolor({ r: color1[0], g: color1[1], b: color1[2] }).toHexString();
+  const color2Hex = tinycolor({ r: color2[0], g: color2[1], b: color2[2] }).toHexString();
+  // readability gives a higher value for greater contrast, so we use the inverse
+  return 1 / tinycolor.readability(color1Hex, color2Hex);
 }
 
-// K-means++ Initialization
+// K-means++ Initialization with readability-based distance
 function kMeansPlusPlusInitialization(colors, k) {
   const centroids = [];
   // Step 1: Choose the first centroid randomly
@@ -58,7 +55,7 @@ function kMeansPlusPlusInitialization(colors, k) {
 }
 
 // Perform k-means clustering with k-means++ initialization
-function kMeans(colors, k, maxIterations = 100) {
+function kMeans(colors, k, maxIterations = 1000) {
   let centroids = kMeansPlusPlusInitialization(colors, k);
   let oldCentroids;
   let clusters = new Array(k).fill().map(() => []);
@@ -131,4 +128,4 @@ const groupedReport = {
 
 const yamlContent = yaml.stringify(groupedReport, 4);
 fs.writeFileSync('grouped.yaml', yamlContent, 'utf8');
-console.log('Grouping by k-means++ saved to grouped.yaml.');
+console.log('Grouping by k-means++ with readability saved to grouped.yaml.');
