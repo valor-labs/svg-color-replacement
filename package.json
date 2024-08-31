@@ -1,4 +1,15 @@
 {
+  "name": "svg-color-grouping-tool",
+  "version": "1.0.0",
+  "description": "A tool to analyze, group, and replace colors in SVG files for standardized color palettes.",
+  "main": "report.js",
+  "scripts": {
+    "analyze": "node report.js analyze --dir ./input",
+    "summary": "node report.js summary",
+    "group-kmeans": "node group.js kmeans-lab",
+    "replace-colors": "node replace-colors.js",
+    "generate-html": "node generateHtml.js"
+  },
   "dependencies": {
     "color-convert": "^2.0.1",
     "commander": "^12.1.0",
@@ -8,5 +19,16 @@
     "ml-kmeans": "^6.0.0",
     "tinycolor2": "^1.6.0",
     "yamljs": "^0.3.0"
-  }
+  },
+  "keywords": [
+    "svg",
+    "color",
+    "grouping",
+    "replacement",
+    "kmeans",
+    "cielab",
+    "tool"
+  ],
+  "author": "tgskiv@gmail.com",
+  "license": "MIT"
 }
