@@ -1,3 +1,4 @@
-node report.js analyze --dir path/to/your/svg/files
+node report.js analyze --dir input
 node report.js summary
-node group.js readability
+node group.js kmeans-lab
+node generateHtml.js

@@ -1,12 +1,12 @@
 list:
     -
-        filename: working/src/media/quote_sign.svg
+        filename: input/src/media/quote_sign.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#22262C'}]}
             - {tag: path, colors: [{prop: fill, value: '#22262C'}]}
     -
-        filename: working/src/media/404.svg
+        filename: input/src/media/404.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -57,7 +57,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/services/services_6.svg
+        filename: input/src/media/services/services_6.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#252525'}]}
@@ -171,7 +171,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/services/services_5.svg
+        filename: input/src/media/services/services_5.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -294,7 +294,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/services/services_4.svg
+        filename: input/src/media/services/services_4.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -434,7 +434,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: white}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/services/services_3.svg
+        filename: input/src/media/services/services_3.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#252525'}]}
@@ -542,7 +542,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/services/services_2.svg
+        filename: input/src/media/services/services_2.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -655,7 +655,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/services/services_1.svg
+        filename: input/src/media/services/services_1.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -775,7 +775,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/services/header_bg.svg
+        filename: input/src/media/services/header_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
@@ -1034,7 +1034,7 @@ list:
             - {tag: rect, colors: [{prop: fill, value: white}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/portfolio/terminus_page/terminus_logo.svg
+        filename: input/src/media/images/portfolio/terminus_page/terminus_logo.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: 'url(#paint0_radial_10167_6810)'}]}
@@ -1043,27 +1043,27 @@ list:
             - {tag: stop, colors: [{prop: stop-color, value: '#0065AC'}]}
             - {tag: stop, colors: [{prop: stop-color, value: '#00538A'}]}
     -
-        filename: working/src/media/portfolio/terminus_page/report.svg
+        filename: input/src/media/images/portfolio/terminus_page/report.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/terminus_page/newTechnologies_challenge.svg
+        filename: input/src/media/images/portfolio/terminus_page/newTechnologies_challenge.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/terminus_page/header_sm_bg.svg
+        filename: input/src/media/images/portfolio/terminus_page/header_sm_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/terminus_page/header_bg.svg
+        filename: input/src/media/images/portfolio/terminus_page/header_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/terminus_page/cloud_challenge.svg
+        filename: input/src/media/images/portfolio/terminus_page/cloud_challenge.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#252525'}]}
@@ -1241,57 +1241,57 @@ list:
             - {tag: stop, colors: [{prop: stop-color, value: '#5180C9'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/portfolio/terminus_page/challenge_1.svg
+        filename: input/src/media/images/portfolio/terminus_page/challenge_1.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/terminus_page/campaign_performance_2.svg
+        filename: input/src/media/images/portfolio/terminus_page/campaign_performance_2.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/terminus_page/campaign_performance_1.svg
+        filename: input/src/media/images/portfolio/terminus_page/campaign_performance_1.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/terminus_page/before_solution.svg
+        filename: input/src/media/images/portfolio/terminus_page/before_solution.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/terminus_page/after_solution.svg
+        filename: input/src/media/images/portfolio/terminus_page/after_solution.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/booking_page/future.svg
+        filename: input/src/media/images/portfolio/booking_page/future.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/booking_page/diagram_2.svg
+        filename: input/src/media/images/portfolio/booking_page/diagram_2.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/booking_page/diagram_1.svg
+        filename: input/src/media/images/portfolio/booking_page/diagram_1.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/booking_page/background.svg
+        filename: input/src/media/images/portfolio/booking_page/background.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/ashes_page/sso_bg.svg
+        filename: input/src/media/images/portfolio/ashes_page/sso_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/ashes_page/payment_bg.svg
+        filename: input/src/media/images/portfolio/ashes_page/payment_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: white}]}
@@ -1312,467 +1312,22 @@ list:
             - {tag: path, colors: [{prop: fill, value: white}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/portfolio/ashes_page/nx_bg.svg
+        filename: input/src/media/images/portfolio/ashes_page/nx_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/ashes_page/header_bg_resp.svg
+        filename: input/src/media/images/portfolio/ashes_page/header_bg_resp.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/ashes_page/header_bg.svg
+        filename: input/src/media/images/portfolio/ashes_page/header_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/portfolio/ashes_page/challenge_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: rect, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/src/media/portfolio/ashes_page/automated_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/portfolio/ashes_page/ashes_logo.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/technologies/svg/realm.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#FCC397'}]}
-            - {tag: path, colors: [{prop: fill, value: '#FC9F95'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F77C88'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F25192'}]}
-            - {tag: path, colors: [{prop: fill, value: '#D34CA3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9A50A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#59569E'}]}
-            - {tag: path, colors: [{prop: fill, value: '#39477F'}]}
-    -
-        filename: working/src/media/images/technologies/svg/react_clean.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#61DAFB'}]}
-            - {tag: ellipse, colors: [{prop: fill, value: '#61DAFB'}]}
-    -
-        filename: working/src/media/images/technologies/svg/python.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint0_linear_12520_19551)'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint1_linear_12520_19551)'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint2_radial_12520_19551)'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#5A9FD4'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#306998'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#FFD43B'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#FFE873'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#B8B8B8'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#7F7F7F'}]}
-    -
-        filename: working/src/media/images/technologies/svg/nx.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/src/media/images/technologies/svg/netlify.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/src/media/images/technologies/svg/builder_io.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#18B4F4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#FD6B3C'}]}
-            - {tag: path, colors: [{prop: fill, value: '#A97FF2'}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: rect, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/src/media/images/technologies/svg/azure.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#0072C6'}]}
-    -
-        filename: working/src/media/images/technologies/active/javascript.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#F7DF1E'}]}
-            - {tag: path, colors: [{prop: fill, value: black}]}
-            - {tag: path, colors: [{prop: fill, value: black}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/terminus_logo.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint0_radial_10167_6810)'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#0098CE'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#0072C6'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#0065AC'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#00538A'}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/report.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/newTechnologies_challenge.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/header_sm_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/header_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/cloud_challenge.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F68635'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F68635'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F68635'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F68635'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9E5125'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9E5125'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9E5125'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9E5125'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint0_linear_10114_7279)'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint1_linear_10114_7279)'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint2_linear_10114_7279)'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5267B0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5267B0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5266AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5166AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5165AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5164AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5164AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5163AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5063AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5062AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5062AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5061AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5060AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F60AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5FAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5FAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5EAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5EAA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5DAA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5CA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5CA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5BA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D5BA8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D5AA8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D59A8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D59A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D58A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C58A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C57A6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C56A6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C56A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C55A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B55A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B54A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B53A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B53A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B52A3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5267B0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5267B0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5266AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5166AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5165AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5164AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5164AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5163AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5063AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5062AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5062AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5061AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5060AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F60AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5FAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5FAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5EAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5EAA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5DAA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5CA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5CA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5BA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D5BA8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D5AA8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D59A8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D59A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D58A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C58A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C57A6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C56A6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C56A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C55A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B55A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B54A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B53A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B53A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B52A3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B52A3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5069B1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5069B1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5069B2'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506AB2'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506AB2'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506BB3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506BB3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506CB3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516CB4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516DB4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516EB4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516EB5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516FB5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516FB6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5170B6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5170B6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5271B7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5271B7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5272B7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5273B8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5273B8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5274B9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5274B9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5275B9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5375BA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5376BA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5376BA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5377BB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5378BB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5378BC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5379BC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5379BC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#537ABD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547ABD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547BBD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547CBE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547CBE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547DBF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547DBF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547EBF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547EC0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#557FC0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5580C1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5580C1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5580C1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#ECBE7A'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#ECBE7A'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#4F66B9'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#484FAB'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#4F66B9'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#484FAB'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#4C68BB'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#5180C9'}]}
-            - {tag: rect, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/challenge_1.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/campaign_performance_2.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/campaign_performance_1.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/before_solution.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/terminus_page/after_solution.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/booking_page/future.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/booking_page/diagram_2.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/booking_page/diagram_1.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/booking_page/background.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/ashes_page/sso_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/ashes_page/payment_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: rect, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/src/media/images/portfolio/ashes_page/nx_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/ashes_page/header_bg_resp.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/ashes_page/header_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/src/media/images/portfolio/ashes_page/challenge_bg.svg
+        filename: input/src/media/images/portfolio/ashes_page/challenge_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -1841,17 +1396,17 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/images/portfolio/ashes_page/automated_bg.svg
+        filename: input/src/media/images/portfolio/ashes_page/automated_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/images/portfolio/ashes_page/ashes_logo.svg
+        filename: input/src/media/images/portfolio/ashes_page/ashes_logo.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
     -
-        filename: working/src/media/images/clients/enterprises_provides.svg
+        filename: input/src/media/images/clients/enterprises_provides.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
@@ -2100,7 +1655,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/images/clients/enterprises_bg.svg
+        filename: input/src/media/images/clients/enterprises_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -2120,7 +1675,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/images/clients/advantages_enterprises/teamsTime.svg
+        filename: input/src/media/images/clients/advantages_enterprises/teamsTime.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -2133,7 +1688,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/images/clients/advantages_enterprises/strictProcess.svg
+        filename: input/src/media/images/clients/advantages_enterprises/strictProcess.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -2142,7 +1697,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
             - {tag: path, colors: [{prop: stroke, value: '#1B1B1C'}]}
     -
-        filename: working/src/media/images/clients/advantages_enterprises/stratagicGrowth.svg
+        filename: input/src/media/images/clients/advantages_enterprises/stratagicGrowth.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -2155,7 +1710,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/images/clients/advantages_enterprises/riskManagement.svg
+        filename: input/src/media/images/clients/advantages_enterprises/riskManagement.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -2169,7 +1724,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#1B1B1C'}]}
             - {tag: path, colors: [{prop: stroke, value: '#1B1B1C'}]}
     -
-        filename: working/src/media/images/clients/advantages_enterprises/itTalants.svg
+        filename: input/src/media/images/clients/advantages_enterprises/itTalants.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -2190,7 +1745,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/images/clients/advantages_enterprises/acceleration.svg
+        filename: input/src/media/images/clients/advantages_enterprises/acceleration.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -2201,17 +1756,17 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/icons/youtube.svg
+        filename: input/src/media/icons/youtube.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/twitter.svg
+        filename: input/src/media/icons/twitter.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/startups_active.svg
+        filename: input/src/media/icons/startups_active.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -2234,7 +1789,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
     -
-        filename: working/src/media/icons/startups.svg
+        filename: input/src/media/icons/startups.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -2255,7 +1810,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
     -
-        filename: working/src/media/icons/smbs_active.svg
+        filename: input/src/media/icons/smbs_active.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -2269,7 +1824,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/icons/smbs.svg
+        filename: input/src/media/icons/smbs.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -2280,12 +1835,12 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/icons/quotation_marks.svg
+        filename: input/src/media/icons/quotation_marks.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#363639'}]}
     -
-        filename: working/src/media/icons/non-profits_active.svg
+        filename: input/src/media/icons/non-profits_active.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: circle, colors: [{prop: fill, value: '#EAB669'}]}
@@ -2298,7 +1853,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/icons/non-profits.svg
+        filename: input/src/media/icons/non-profits.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -2310,34 +1865,34 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/icons/linkedin.svg
+        filename: input/src/media/icons/linkedin.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/light-arrow.svg
+        filename: input/src/media/icons/light-arrow.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#C8C8C8'}]}
     -
-        filename: working/src/media/icons/instagram.svg
+        filename: input/src/media/icons/instagram.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/file-uploader.svg
+        filename: input/src/media/icons/file-uploader.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/facebook.svg
+        filename: input/src/media/icons/facebook.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/enterprises_active.svg
+        filename: input/src/media/icons/enterprises_active.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -2358,7 +1913,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/icons/enterprises.svg
+        filename: input/src/media/icons/enterprises.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -2375,17 +1930,17 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/icons/dribble.svg
+        filename: input/src/media/icons/dribble.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/devto.svg
+        filename: input/src/media/icons/devto.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/comparison_slider.svg
+        filename: input/src/media/icons/comparison_slider.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: '#989898'}]}
@@ -2394,43 +1949,43 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#989898'}]}
             - {tag: path, colors: [{prop: stroke, value: '#989898'}]}
     -
-        filename: working/src/media/icons/burger-menu.svg
+        filename: input/src/media/icons/burger-menu.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/icons/behance.svg
+        filename: input/src/media/icons/behance.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/arrow.svg
+        filename: input/src/media/icons/arrow.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: white}]}
             - {tag: path, colors: [{prop: stroke, value: white}]}
     -
-        filename: working/src/media/icons/arrow-red.svg
+        filename: input/src/media/icons/arrow-red.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E24E63'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E24E63'}]}
     -
-        filename: working/src/media/icons/arrow-circle.svg
+        filename: input/src/media/icons/arrow-circle.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#989898'}]}
             - {tag: path, colors: [{prop: fill, value: '#989898'}]}
             - {tag: path, colors: [{prop: fill, value: '#989898'}]}
     -
-        filename: working/src/media/icons/added_file.svg
+        filename: input/src/media/icons/added_file.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/src/media/icons/startup_schema/wireframes.svg
+        filename: input/src/media/icons/startup_schema/wireframes.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -2445,7 +2000,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/src/media/icons/startup_schema/uxUi.svg
+        filename: input/src/media/icons/startup_schema/uxUi.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -2460,7 +2015,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/src/media/icons/startup_schema/testing.svg
+        filename: input/src/media/icons/startup_schema/testing.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -2475,12 +2030,12 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/src/media/icons/startup_schema/straightArrow.svg
+        filename: input/src/media/icons/startup_schema/straightArrow.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/icons/startup_schema/start.svg
+        filename: input/src/media/icons/startup_schema/start.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -2527,30 +2082,18 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/icons/startup_schema/shortArrowResp.svg
+        filename: input/src/media/icons/startup_schema/shortArrowResp.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/icons/startup_schema/research.svg
+        filename: input/src/media/icons/startup_schema/research.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/src/media/icons/startup_schema/requirements.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-    -
-        filename: working/src/media/icons/startup_schema/prototype.svg
+        filename: input/src/media/icons/startup_schema/requirements.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -2561,12 +2104,24 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+    -
+        filename: input/src/media/icons/startup_schema/prototype.svg
+        colors:
+            - {tag: svg, colors: [{prop: fill, value: none}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/src/media/icons/startup_schema/plan.svg
+        filename: input/src/media/icons/startup_schema/plan.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -2577,7 +2132,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/src/media/icons/startup_schema/endRocket.svg
+        filename: input/src/media/icons/startup_schema/endRocket.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -2636,7 +2191,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/icons/startup_schema/development.svg
+        filename: input/src/media/icons/startup_schema/development.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -2649,12 +2204,12 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/src/media/icons/startup_schema/clickable.svg
+        filename: input/src/media/icons/startup_schema/clickable.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/src/media/icons/startup_schema/analysis.svg
+        filename: input/src/media/icons/startup_schema/analysis.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -2664,47 +2219,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/src/media/icons/social/youtube.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/src/media/icons/social/twitter.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/src/media/icons/social/linkedin.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/src/media/icons/social/instagram.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/src/media/icons/social/facebook.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/src/media/icons/social/dribble.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/src/media/icons/social/devto.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/src/media/icons/social/behance.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/src/media/clients/startups_header_bg.svg
+        filename: input/src/media/clients/startups_header_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -2727,7 +2242,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/smbs_provides.svg
+        filename: input/src/media/clients/smbs_provides.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
@@ -2871,7 +2386,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#161617'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/smbs_header_bg.svg
+        filename: input/src/media/clients/smbs_header_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -2884,7 +2399,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/nonProfit_bg.svg
+        filename: input/src/media/clients/nonProfit_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -2940,7 +2455,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/enterprises_provides.svg
+        filename: input/src/media/clients/enterprises_provides.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
@@ -3189,7 +2704,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/enterprises_bg.svg
+        filename: input/src/media/clients/enterprises_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -3209,7 +2724,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/enteprises.svg
+        filename: input/src/media/clients/enteprises.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -3226,7 +2741,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/icons/support.svg
+        filename: input/src/media/clients/icons/support.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
@@ -3465,7 +2980,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/icons/onTime.svg
+        filename: input/src/media/clients/icons/onTime.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#231F20'}]}
@@ -3617,7 +3132,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#6C6C6C'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/icons/offline.svg
+        filename: input/src/media/clients/icons/offline.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
@@ -3737,7 +3252,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/icons/ecosystem.svg
+        filename: input/src/media/clients/icons/ecosystem.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -3882,7 +3397,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
     -
-        filename: working/src/media/clients/advantages_smbs/transparency.svg
+        filename: input/src/media/clients/advantages_smbs/transparency.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -3906,7 +3421,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/advantages_smbs/self-sufficient.svg
+        filename: input/src/media/clients/advantages_smbs/self-sufficient.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
@@ -3931,7 +3446,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages_smbs/opennesse_communication.svg
+        filename: input/src/media/clients/advantages_smbs/opennesse_communication.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -3952,7 +3467,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/advantages_smbs/long-term_engagement.svg
+        filename: input/src/media/clients/advantages_smbs/long-term_engagement.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -3983,7 +3498,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/advantages_smbs/ample_range.svg
+        filename: input/src/media/clients/advantages_smbs/ample_range.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#252525'}]}
@@ -4072,7 +3587,7 @@ list:
             - {tag: rect, colors: [{prop: fill, value: white}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/clients/advantages_non_profit/transparency.svg
+        filename: input/src/media/clients/advantages_non_profit/transparency.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -4104,7 +3619,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages_non_profit/shortTime.svg
+        filename: input/src/media/clients/advantages_non_profit/shortTime.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -4139,7 +3654,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages_non_profit/shared_values.svg
+        filename: input/src/media/clients/advantages_non_profit/shared_values.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -4154,7 +3669,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages_non_profit/integration.svg
+        filename: input/src/media/clients/advantages_non_profit/integration.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -4165,7 +3680,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages_non_profit/efficientWork.svg
+        filename: input/src/media/clients/advantages_non_profit/efficientWork.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
@@ -4188,7 +3703,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages_enterprises/teamsTime.svg
+        filename: input/src/media/clients/advantages_enterprises/teamsTime.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -4201,7 +3716,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages_enterprises/strictProcess.svg
+        filename: input/src/media/clients/advantages_enterprises/strictProcess.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -4210,7 +3725,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
             - {tag: path, colors: [{prop: stroke, value: '#1B1B1C'}]}
     -
-        filename: working/src/media/clients/advantages_enterprises/stratagicGrowth.svg
+        filename: input/src/media/clients/advantages_enterprises/stratagicGrowth.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -4223,7 +3738,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages_enterprises/riskManagement.svg
+        filename: input/src/media/clients/advantages_enterprises/riskManagement.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -4237,7 +3752,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#1B1B1C'}]}
             - {tag: path, colors: [{prop: stroke, value: '#1B1B1C'}]}
     -
-        filename: working/src/media/clients/advantages_enterprises/itTalants.svg
+        filename: input/src/media/clients/advantages_enterprises/itTalants.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -4258,7 +3773,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages_enterprises/acceleration.svg
+        filename: input/src/media/clients/advantages_enterprises/acceleration.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -4269,45 +3784,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages/solid_managment.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-    -
-        filename: working/src/media/clients/advantages/prod_pivot.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-    -
-        filename: working/src/media/clients/advantages/mvp_dev.svg
+        filename: input/src/media/clients/advantages/solid_managment.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -4320,12 +3797,50 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+    -
+        filename: input/src/media/clients/advantages/prod_pivot.svg
+        colors:
+            - {tag: svg, colors: [{prop: fill, value: none}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+    -
+        filename: input/src/media/clients/advantages/mvp_dev.svg
+        colors:
+            - {tag: svg, colors: [{prop: fill, value: none}]}
+            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/src/media/clients/advantages/investment.svg
+        filename: input/src/media/clients/advantages/investment.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -4347,7 +3862,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/careers/values_bg.svg
+        filename: input/src/media/careers/values_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -4428,7 +3943,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/careers/rock_it.svg
+        filename: input/src/media/careers/rock_it.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#231F20'}]}
@@ -4593,7 +4108,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: white}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/src/media/careers/header_bg.svg
+        filename: input/src/media/careers/header_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#314C63'}]}
@@ -4652,80 +4167,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/technologies/svg/realm.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#FCC397'}]}
-            - {tag: path, colors: [{prop: fill, value: '#FC9F95'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F77C88'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F25192'}]}
-            - {tag: path, colors: [{prop: fill, value: '#D34CA3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9A50A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#59569E'}]}
-            - {tag: path, colors: [{prop: fill, value: '#39477F'}]}
-    -
-        filename: working/public/images/technologies/svg/react_clean.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#61DAFB'}]}
-            - {tag: ellipse, colors: [{prop: fill, value: '#61DAFB'}]}
-    -
-        filename: working/public/images/technologies/svg/python.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint0_linear_12520_19551)'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint1_linear_12520_19551)'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint2_radial_12520_19551)'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#5A9FD4'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#306998'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#FFD43B'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#FFE873'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#B8B8B8'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#7F7F7F'}]}
-    -
-        filename: working/public/images/technologies/svg/nx.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/public/images/technologies/svg/netlify.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/public/images/technologies/svg/builder_io.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#18B4F4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#FD6B3C'}]}
-            - {tag: path, colors: [{prop: fill, value: '#A97FF2'}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: rect, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/public/images/technologies/svg/azure.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#0072C6'}]}
-    -
-        filename: working/public/images/technologies/active/javascript.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#F7DF1E'}]}
-            - {tag: path, colors: [{prop: fill, value: black}]}
-            - {tag: path, colors: [{prop: fill, value: black}]}
-    -
-        filename: working/public/images/services/services_6.svg
+        filename: input/public/images/services/services_6.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#252525'}]}
@@ -4839,7 +4281,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/services/services_5.svg
+        filename: input/public/images/services/services_5.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -4962,7 +4404,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/services/services_4.svg
+        filename: input/public/images/services/services_4.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -5102,7 +4544,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: white}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/services/services_3.svg
+        filename: input/public/images/services/services_3.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#252525'}]}
@@ -5210,7 +4652,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/services/services_2.svg
+        filename: input/public/images/services/services_2.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -5323,7 +4765,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/services/services_1.svg
+        filename: input/public/images/services/services_1.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -5443,7 +4885,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/services/header_bg.svg
+        filename: input/public/images/services/header_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
@@ -5702,379 +5144,7 @@ list:
             - {tag: rect, colors: [{prop: fill, value: white}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/portfolio/terminus_page/terminus_logo.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint0_radial_10167_6810)'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#0098CE'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#0072C6'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#0065AC'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#00538A'}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/report.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/newTechnologies_challenge.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/header_sm_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/header_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/cloud_challenge.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F68635'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F68635'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F68635'}]}
-            - {tag: path, colors: [{prop: fill, value: '#F68635'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9E5125'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9E5125'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9E5125'}]}
-            - {tag: path, colors: [{prop: fill, value: '#9E5125'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint0_linear_10114_7279)'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint1_linear_10114_7279)'}]}
-            - {tag: path, colors: [{prop: fill, value: 'url(#paint2_linear_10114_7279)'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5267B0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5267B0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5266AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5166AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5165AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5164AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5164AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5163AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5063AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5062AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5062AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5061AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5060AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F60AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5FAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5FAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5EAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5EAA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5DAA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5CA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5CA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5BA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D5BA8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D5AA8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D59A8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D59A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D58A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C58A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C57A6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C56A6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C56A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C55A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B55A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B54A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B53A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B53A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B52A3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5267B0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5267B0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5266AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5166AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5165AF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5164AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5164AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5163AE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5063AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5062AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5062AD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5061AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5060AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F60AC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5FAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5FAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5EAB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4F5EAA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5DAA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5CA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5CA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4E5BA9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D5BA8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D5AA8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D59A8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D59A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4D58A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C58A7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C57A6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C56A6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C56A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4C55A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B55A5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B54A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B53A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B53A4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B52A3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#4B52A3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5069B1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5069B1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5069B2'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506AB2'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506AB2'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506BB3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506BB3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#506CB3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516CB4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516DB4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516EB4'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516EB5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516FB5'}]}
-            - {tag: path, colors: [{prop: fill, value: '#516FB6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5170B6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5170B6'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5271B7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5271B7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5272B7'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5273B8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5273B8'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5274B9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5274B9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5275B9'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5375BA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5376BA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5376BA'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5377BB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5378BB'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5378BC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5379BC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5379BC'}]}
-            - {tag: path, colors: [{prop: fill, value: '#537ABD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547ABD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547BBD'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547CBE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547CBE'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547DBF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547DBF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547EBF'}]}
-            - {tag: path, colors: [{prop: fill, value: '#547EC0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#557FC0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5580C1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5580C1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#5580C1'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#C0C0C0'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#ECBE7A'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#ECBE7A'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#4F66B9'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#484FAB'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#4F66B9'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#484FAB'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#4C68BB'}]}
-            - {tag: stop, colors: [{prop: stop-color, value: '#5180C9'}]}
-            - {tag: rect, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/challenge_1.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/campaign_performance_2.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/campaign_performance_1.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/before_solution.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/terminus_page/after_solution.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/booking_page/future.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/booking_page/diagram_2.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/booking_page/diagram_1.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/booking_page/background.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/ashes_page/sso_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/ashes_page/payment_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: path, colors: [{prop: fill, value: white}]}
-            - {tag: rect, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/public/images/portfolio/ashes_page/nx_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/ashes_page/header_bg_resp.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/ashes_page/header_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/ashes_page/challenge_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#252525'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
-            - {tag: rect, colors: [{prop: fill, value: white}]}
-    -
-        filename: working/public/images/portfolio/ashes_page/automated_bg.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/portfolio/ashes_page/ashes_logo.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: rect, colors: [{prop: fill, value: 'url(#pattern0)'}]}
-    -
-        filename: working/public/images/icons/startups_active.svg
+        filename: input/public/images/icons/startups_active.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -6097,7 +5167,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
     -
-        filename: working/public/images/icons/startups.svg
+        filename: input/public/images/icons/startups.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -6118,7 +5188,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
     -
-        filename: working/public/images/icons/smbs_active.svg
+        filename: input/public/images/icons/smbs_active.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -6132,7 +5202,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/icons/smbs.svg
+        filename: input/public/images/icons/smbs.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -6143,12 +5213,12 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/icons/quotation_marks.svg
+        filename: input/public/images/icons/quotation_marks.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#363639'}]}
     -
-        filename: working/public/images/icons/non-profits_active.svg
+        filename: input/public/images/icons/non-profits_active.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: circle, colors: [{prop: fill, value: '#EAB669'}]}
@@ -6161,7 +5231,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/icons/non-profits.svg
+        filename: input/public/images/icons/non-profits.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -6173,19 +5243,19 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/icons/light-arrow.svg
+        filename: input/public/images/icons/light-arrow.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#C8C8C8'}]}
     -
-        filename: working/public/images/icons/file-uploader.svg
+        filename: input/public/images/icons/file-uploader.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/public/images/icons/enterprises_active.svg
+        filename: input/public/images/icons/enterprises_active.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -6206,7 +5276,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/icons/enterprises.svg
+        filename: input/public/images/icons/enterprises.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -6223,7 +5293,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/icons/comparison_slider.svg
+        filename: input/public/images/icons/comparison_slider.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: '#989898'}]}
@@ -6232,38 +5302,38 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#989898'}]}
             - {tag: path, colors: [{prop: stroke, value: '#989898'}]}
     -
-        filename: working/public/images/icons/burger-menu.svg
+        filename: input/public/images/icons/burger-menu.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/icons/arrow.svg
+        filename: input/public/images/icons/arrow.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: white}]}
             - {tag: path, colors: [{prop: stroke, value: white}]}
     -
-        filename: working/public/images/icons/arrow-red.svg
+        filename: input/public/images/icons/arrow-red.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E24E63'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E24E63'}]}
     -
-        filename: working/public/images/icons/arrow-circle.svg
+        filename: input/public/images/icons/arrow-circle.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#989898'}]}
             - {tag: path, colors: [{prop: fill, value: '#989898'}]}
             - {tag: path, colors: [{prop: fill, value: '#989898'}]}
     -
-        filename: working/public/images/icons/added_file.svg
+        filename: input/public/images/icons/added_file.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
     -
-        filename: working/public/images/icons/startup_schema/wireframes.svg
+        filename: input/public/images/icons/startup_schema/wireframes.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -6278,7 +5348,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/public/images/icons/startup_schema/uxUi.svg
+        filename: input/public/images/icons/startup_schema/uxUi.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -6293,7 +5363,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/public/images/icons/startup_schema/testing.svg
+        filename: input/public/images/icons/startup_schema/testing.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -6308,12 +5378,12 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/public/images/icons/startup_schema/straightArrow.svg
+        filename: input/public/images/icons/startup_schema/straightArrow.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/icons/startup_schema/start.svg
+        filename: input/public/images/icons/startup_schema/start.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -6360,30 +5430,18 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/icons/startup_schema/shortArrowResp.svg
+        filename: input/public/images/icons/startup_schema/shortArrowResp.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/icons/startup_schema/research.svg
+        filename: input/public/images/icons/startup_schema/research.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/public/images/icons/startup_schema/requirements.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
-    -
-        filename: working/public/images/icons/startup_schema/prototype.svg
+        filename: input/public/images/icons/startup_schema/requirements.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -6394,12 +5452,24 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+    -
+        filename: input/public/images/icons/startup_schema/prototype.svg
+        colors:
+            - {tag: svg, colors: [{prop: fill, value: none}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/public/images/icons/startup_schema/plan.svg
+        filename: input/public/images/icons/startup_schema/plan.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -6410,7 +5480,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/public/images/icons/startup_schema/endRocket.svg
+        filename: input/public/images/icons/startup_schema/endRocket.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -6469,7 +5539,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/icons/startup_schema/development.svg
+        filename: input/public/images/icons/startup_schema/development.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -6482,12 +5552,12 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/public/images/icons/startup_schema/clickable.svg
+        filename: input/public/images/icons/startup_schema/clickable.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/public/images/icons/startup_schema/analysis.svg
+        filename: input/public/images/icons/startup_schema/analysis.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
@@ -6497,47 +5567,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
             - {tag: path, colors: [{prop: stroke, value: '#161617'}]}
     -
-        filename: working/public/images/icons/social/youtube.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/public/images/icons/social/twitter.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/public/images/icons/social/linkedin.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/public/images/icons/social/instagram.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/public/images/icons/social/facebook.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/public/images/icons/social/dribble.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/public/images/icons/social/devto.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/public/images/icons/social/behance.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#8C8C8C'}]}
-    -
-        filename: working/public/images/clients/startups_header_bg.svg
+        filename: input/public/images/clients/startups_header_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -6560,7 +5590,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/smbs_provides.svg
+        filename: input/public/images/clients/smbs_provides.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
@@ -6704,7 +5734,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#161617'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/smbs_header_bg.svg
+        filename: input/public/images/clients/smbs_header_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -6717,7 +5747,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/nonProfit_bg.svg
+        filename: input/public/images/clients/nonProfit_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -6773,7 +5803,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/enterprises_provides.svg
+        filename: input/public/images/clients/enterprises_provides.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
@@ -7022,7 +6052,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/enterprises_bg.svg
+        filename: input/public/images/clients/enterprises_bg.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -7042,7 +6072,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/enteprises.svg
+        filename: input/public/images/clients/enteprises.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
@@ -7059,7 +6089,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E1E1E1'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/icons/support.svg
+        filename: input/public/images/clients/icons/support.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
@@ -7298,7 +6328,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/icons/onTime.svg
+        filename: input/public/images/clients/icons/onTime.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#231F20'}]}
@@ -7450,7 +6480,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#6C6C6C'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/icons/offline.svg
+        filename: input/public/images/clients/icons/offline.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
@@ -7570,7 +6600,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/icons/ecosystem.svg
+        filename: input/public/images/clients/icons/ecosystem.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -7715,7 +6745,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
     -
-        filename: working/public/images/clients/advantages_smbs/transparency.svg
+        filename: input/public/images/clients/advantages_smbs/transparency.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -7739,7 +6769,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/advantages_smbs/self-sufficient.svg
+        filename: input/public/images/clients/advantages_smbs/self-sufficient.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
@@ -7764,7 +6794,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages_smbs/opennesse_communication.svg
+        filename: input/public/images/clients/advantages_smbs/opennesse_communication.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -7785,7 +6815,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/advantages_smbs/long-term_engagement.svg
+        filename: input/public/images/clients/advantages_smbs/long-term_engagement.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -7816,7 +6846,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/advantages_smbs/ample_range.svg
+        filename: input/public/images/clients/advantages_smbs/ample_range.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#252525'}]}
@@ -7905,7 +6935,7 @@ list:
             - {tag: rect, colors: [{prop: fill, value: white}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/clients/advantages_non_profit/transparency.svg
+        filename: input/public/images/clients/advantages_non_profit/transparency.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -7937,7 +6967,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages_non_profit/shortTime.svg
+        filename: input/public/images/clients/advantages_non_profit/shortTime.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -7972,7 +7002,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages_non_profit/shared_values.svg
+        filename: input/public/images/clients/advantages_non_profit/shared_values.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -7987,7 +7017,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages_non_profit/integration.svg
+        filename: input/public/images/clients/advantages_non_profit/integration.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -7998,7 +7028,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages_non_profit/efficientWork.svg
+        filename: input/public/images/clients/advantages_non_profit/efficientWork.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
@@ -8021,7 +7051,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages_enterprises/teamsTime.svg
+        filename: input/public/images/clients/advantages_enterprises/teamsTime.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -8034,7 +7064,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages_enterprises/strictProcess.svg
+        filename: input/public/images/clients/advantages_enterprises/strictProcess.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -8043,7 +7073,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
             - {tag: path, colors: [{prop: stroke, value: '#1B1B1C'}]}
     -
-        filename: working/public/images/clients/advantages_enterprises/stratagicGrowth.svg
+        filename: input/public/images/clients/advantages_enterprises/stratagicGrowth.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: rect, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -8056,7 +7086,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages_enterprises/riskManagement.svg
+        filename: input/public/images/clients/advantages_enterprises/riskManagement.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -8070,7 +7100,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#1B1B1C'}]}
             - {tag: path, colors: [{prop: stroke, value: '#1B1B1C'}]}
     -
-        filename: working/public/images/clients/advantages_enterprises/itTalants.svg
+        filename: input/public/images/clients/advantages_enterprises/itTalants.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -8091,7 +7121,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages_enterprises/acceleration.svg
+        filename: input/public/images/clients/advantages_enterprises/acceleration.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -8102,45 +7132,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages/solid_managment.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-    -
-        filename: working/public/images/clients/advantages/prod_pivot.svg
-        colors:
-            - {tag: svg, colors: [{prop: fill, value: none}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
-    -
-        filename: working/public/images/clients/advantages/mvp_dev.svg
+        filename: input/public/images/clients/advantages/solid_managment.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -8153,12 +7145,50 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+    -
+        filename: input/public/images/clients/advantages/prod_pivot.svg
+        colors:
+            - {tag: svg, colors: [{prop: fill, value: none}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+    -
+        filename: input/public/images/clients/advantages/mvp_dev.svg
+        colors:
+            - {tag: svg, colors: [{prop: fill, value: none}]}
+            - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
+            - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/clients/advantages/investment.svg
+        filename: input/public/images/clients/advantages/investment.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#71A5D2'}]}
@@ -8180,7 +7210,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/careers/sports.svg
+        filename: input/public/images/careers/sports.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -8188,7 +7218,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/careers/remote.svg
+        filename: input/public/images/careers/remote.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -8203,7 +7233,7 @@ list:
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/careers/pet_friendly.svg
+        filename: input/public/images/careers/pet_friendly.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#EAB669'}]}
@@ -8214,7 +7244,7 @@ list:
             - {tag: ellipse, colors: [{prop: fill, value: '#1B1B1C'}]}
             - {tag: ellipse, colors: [{prop: fill, value: '#1B1B1C'}]}
     -
-        filename: working/public/images/careers/personal_growth.svg
+        filename: input/public/images/careers/personal_growth.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#333333'}]}
@@ -8231,7 +7261,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/careers/open_source.svg
+        filename: input/public/images/careers/open_source.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -8257,7 +7287,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/careers/healthcare.svg
+        filename: input/public/images/careers/healthcare.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -8267,7 +7297,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/careers/gde.svg
+        filename: input/public/images/careers/gde.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -8278,7 +7308,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/careers/flat_str.svg
+        filename: input/public/images/careers/flat_str.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -8293,7 +7323,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: rect, colors: [{prop: fill, value: white}]}
     -
-        filename: working/public/images/careers/english_speakers.svg
+        filename: input/public/images/careers/english_speakers.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -8304,7 +7334,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/careers/compensation_review.svg
+        filename: input/public/images/careers/compensation_review.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
@@ -8320,7 +7350,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/careers/comfort.svg
+        filename: input/public/images/careers/comfort.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}
@@ -8331,7 +7361,7 @@ list:
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
             - {tag: path, colors: [{prop: stroke, value: '#E3E3E3'}]}
     -
-        filename: working/public/images/careers/angular_community.svg
+        filename: input/public/images/careers/angular_community.svg
         colors:
             - {tag: svg, colors: [{prop: fill, value: none}]}
             - {tag: path, colors: [{prop: fill, value: '#CE7783'}]}

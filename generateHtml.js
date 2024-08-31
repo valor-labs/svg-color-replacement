@@ -38,7 +38,9 @@ function generateHtml(groupedData, outputFile) {
             data.forEach(group => {
                 const li = document.createElement('li');
                 const mainColorDiv = createColorDiv(group.groupedColor);
+                const newColorDiv = createColorDiv(group.newColor);
                 li.appendChild(mainColorDiv);
+                li.appendChild(newColorDiv);
 
                 const subUl = document.createElement('ul');
                 group.similarColors.forEach(similarColor => {
