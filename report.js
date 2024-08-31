@@ -142,41 +142,73 @@ program
   
     return closestCentroidIndex;
   }
-  
-  // Perform k-means clustering
-  function kMeans(colors, k) {
-    // Step 1: Initialize centroids by randomly selecting k colors
-    let centroids = colors.slice(0, k);
-  
-    let oldCentroids;
-    let clusters = new Array(k).fill().map(() => []);
-  
-    while (JSON.stringify(centroids) !== JSON.stringify(oldCentroids)) {
-      oldCentroids = JSON.parse(JSON.stringify(centroids));
-  
-      // Step 2: Assign each color to the nearest centroid
-      clusters = new Array(k).fill().map(() => []);
-      colors.forEach(color => {
-        const closestCentroidIndex = findClosestCentroid(color, centroids);
-        clusters[closestCentroidIndex].push(color);
-      });
-  
-      // Step 3: Recalculate the centroids
-      centroids = clusters.map(cluster => {
-        const clusterLength = cluster.length;
-        if (clusterLength === 0) return [0, 0, 0];
-  
-        const sum = cluster.reduce(
-          (acc, color) => [acc[0] + color[0], acc[1] + color[1], acc[2] + color[2]],
-          [0, 0, 0]
-        );
-  
-        return [Math.round(sum[0] / clusterLength), Math.round(sum[1] / clusterLength), Math.round(sum[2] / clusterLength)];
-      });
+
+  // Function to select initial centroids using k-means++ method
+function kMeansPlusPlusInitialization(colors, k) {
+  const centroids = [];
+  // Step 1: Choose the first centroid randomly
+  centroids.push(colors[Math.floor(Math.random() * colors.length)]);
+
+  // Step 2: Choose subsequent centroids based on a probability proportional to the distance from the closest centroid
+  for (let i = 1; i < k; i++) {
+    const distances = colors.map(color => {
+      const closestCentroidDistance = Math.min(
+        ...centroids.map(centroid => calculateDistance(color, centroid))
+      );
+      return closestCentroidDistance;
+    });
+
+    const totalDistance = distances.reduce((sum, d) => sum + d, 0);
+    const probabilities = distances.map(d => d / totalDistance);
+
+    let cumulativeProbability = 0;
+    const rand = Math.random();
+    for (let j = 0; j < colors.length; j++) {
+      cumulativeProbability += probabilities[j];
+      if (rand < cumulativeProbability) {
+        centroids.push(colors[j]);
+        break;
+      }
     }
-  
-    return { centroids, clusters };
   }
+
+  return centroids;
+}
+  
+// Perform k-means clustering with k-means++ initialization
+function kMeans(colors, k) {
+  // Initialize centroids using k-means++
+  let centroids = kMeansPlusPlusInitialization(colors, k);
+
+  let oldCentroids;
+  let clusters = new Array(k).fill().map(() => []);
+
+  while (JSON.stringify(centroids) !== JSON.stringify(oldCentroids)) {
+    oldCentroids = JSON.parse(JSON.stringify(centroids));
+
+    // Step 2: Assign each color to the nearest centroid
+    clusters = new Array(k).fill().map(() => []);
+    colors.forEach(color => {
+      const closestCentroidIndex = findClosestCentroid(color, centroids);
+      clusters[closestCentroidIndex].push(color);
+    });
+
+    // Step 3: Recalculate the centroids
+    centroids = clusters.map(cluster => {
+      const clusterLength = cluster.length;
+      if (clusterLength === 0) return [0, 0, 0];
+
+      const sum = cluster.reduce(
+        (acc, color) => [acc[0] + color[0], acc[1] + color[1], acc[2] + color[2]],
+        [0, 0, 0]
+      );
+
+      return [Math.round(sum[0] / clusterLength), Math.round(sum[1] / clusterLength), Math.round(sum[2] / clusterLength)];
+    });
+  }
+
+  return { centroids, clusters };
+}
   
   // Function to group colors by proximity using k-means clustering
   function groupColorsByProximity(colors, numberOfGroups) {
