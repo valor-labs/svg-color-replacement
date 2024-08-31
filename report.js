@@ -6,7 +6,6 @@ const glob = require('glob');
 const yaml = require('yamljs');
 const { JSDOM } = require('jsdom');
 const commander = require('commander');
-const tinycolor = require('tinycolor2');
 
 const program = new commander.Command();
 
@@ -102,66 +101,132 @@ program
 
 
   
-// Function to group colors by proximity
-function groupColorsByProximity(colors, proximity) {
-  const groupedColors = [];
-  const usedColors = new Set();
+  
+  const tinycolor = require('tinycolor2');
 
-  colors.forEach(baseColor => {
-    if (usedColors.has(baseColor)) return;
-
-    const similarColors = [];
-    const baseTinyColor = tinycolor(baseColor);
-
-    colors.forEach(color => {
-      if (baseColor === color || usedColors.has(color)) return;
-
-      const distance = tinycolor.readability(baseTinyColor, tinycolor(color));
-      if (distance >= proximity) {
-        similarColors.push(color);
-        usedColors.add(color);
+  // Convert a color to an RGB array
+  function colorToRGBArray(color) {
+    const tc = tinycolor(color);
+    const rgb = tc.toRgb();
+    return [rgb.r, rgb.g, rgb.b];
+  }
+  
+  // Convert an RGB array back to a hex color
+  function rgbArrayToHex(rgbArray) {
+    return tinycolor({ r: rgbArray[0], g: rgbArray[1], b: rgbArray[2] }).toHexString();
+  }
+  
+  // Calculate the distance between two RGB colors
+  function calculateDistance(color1, color2) {
+    const [r1, g1, b1] = color1;
+    const [r2, g2, b2] = color2;
+    return Math.sqrt(
+      Math.pow(r2 - r1, 2) +
+      Math.pow(g2 - g1, 2) +
+      Math.pow(b2 - b1, 2)
+    );
+  }
+  
+  // Find the closest centroid for a given color
+  function findClosestCentroid(color, centroids) {
+    let minDistance = Infinity;
+    let closestCentroidIndex = -1;
+  
+    centroids.forEach((centroid, index) => {
+      const distance = calculateDistance(color, centroid);
+      if (distance < minDistance) {
+        minDistance = distance;
+        closestCentroidIndex = index;
       }
     });
-
-    groupedColors.push({
-      groupedColor: baseColor,
-      similarColors: similarColors
-    });
-
-    usedColors.add(baseColor);
-  });
-
-  return groupedColors;
-}
-
-// Command: group
-program
-  .command('group')
-  .description('Group colors based on proximity')
-  .option('--proximity <value>', 'Proximity value for grouping', parseFloat)
-  .action((options) => {
-    const proximity = options.proximity || 1.0;
-
-    if (!fs.existsSync('summary.yaml')) {
-      console.error('Error: summary.yaml not found. Please run the summary command first.');
-      process.exit(1);
+  
+    return closestCentroidIndex;
+  }
+  
+  // Perform k-means clustering
+  function kMeans(colors, k) {
+    // Step 1: Initialize centroids by randomly selecting k colors
+    let centroids = colors.slice(0, k);
+  
+    let oldCentroids;
+    let clusters = new Array(k).fill().map(() => []);
+  
+    while (JSON.stringify(centroids) !== JSON.stringify(oldCentroids)) {
+      oldCentroids = JSON.parse(JSON.stringify(centroids));
+  
+      // Step 2: Assign each color to the nearest centroid
+      clusters = new Array(k).fill().map(() => []);
+      colors.forEach(color => {
+        const closestCentroidIndex = findClosestCentroid(color, centroids);
+        clusters[closestCentroidIndex].push(color);
+      });
+  
+      // Step 3: Recalculate the centroids
+      centroids = clusters.map(cluster => {
+        const clusterLength = cluster.length;
+        if (clusterLength === 0) return [0, 0, 0];
+  
+        const sum = cluster.reduce(
+          (acc, color) => [acc[0] + color[0], acc[1] + color[1], acc[2] + color[2]],
+          [0, 0, 0]
+        );
+  
+        return [Math.round(sum[0] / clusterLength), Math.round(sum[1] / clusterLength), Math.round(sum[2] / clusterLength)];
+      });
     }
-
-    const summary = yaml.load('summary.yaml');
-    const uniqueColors = summary.summary.unique_colors;
-
-    const groupedColors = groupColorsByProximity(uniqueColors, proximity);
-
-    const groupedReport = {
-      proximity: {
-        value: proximity,
-        list: groupedColors
+  
+    return { centroids, clusters };
+  }
+  
+  // Function to group colors by proximity using k-means clustering
+  function groupColorsByProximity(colors, numberOfGroups) {
+    const colorData = colors.map(color => colorToRGBArray(color));
+    const { centroids, clusters } = kMeans(colorData, numberOfGroups);
+    const groupedColors = [];
+  
+    centroids.forEach((centroid, index) => {
+      const groupedColor = rgbArrayToHex(centroid);
+      const similarColors = clusters[index].map(rgbArrayToHex);
+  
+      groupedColors.push({
+        groupedColor: groupedColor,
+        similarColors: similarColors
+      });
+    });
+  
+    return groupedColors;
+  }
+  
+  // Command: group
+  program
+    .command('group')
+    .description('Group colors based on proximity and reduce to a specified number of groups')
+    .option('--groups <number>', 'Number of color groups', parseInt)
+    .action((options) => {
+      const numberOfGroups = options.groups || 10;
+  
+      if (!fs.existsSync('summary.yaml')) {
+        console.error('Error: summary.yaml not found. Please run the summary command first.');
+        process.exit(1);
       }
-    };
+  
+      const summary = yaml.load('summary.yaml');
+      const uniqueColors = summary.summary.unique_colors;
+  
+      const groupedColors = groupColorsByProximity(uniqueColors, numberOfGroups);
+  
+      const groupedReport = {
+        groups: numberOfGroups,
+        list: groupedColors
+      };
+  
+      const yamlContent = yaml.stringify(groupedReport, 4);
+      fs.writeFileSync('grouped.yaml', yamlContent, 'utf8');
+      console.log(`Colors grouped into ${numberOfGroups} groups and saved to grouped.yaml.`);
+    });
+  
 
-    const yamlContent = yaml.stringify(groupedReport, 4);
-    fs.writeFileSync('grouped.yaml', yamlContent, 'utf8');
-    console.log('Colors grouped by proximity and saved to grouped.yaml.');
-  });
+
+
 
 program.parse(process.argv);
