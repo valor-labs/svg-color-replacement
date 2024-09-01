@@ -1,9 +1,21 @@
 groups: 6
 list:
     -
+        groupedColor: '#F68635'
+        newColor: '#F68635'
+        similarColors:
+            - '#EAB669'
+            - '#ECBE7A'
+            - '#B8935D'
+            - '#F68635'
+            - '#997640'
+            - '#9E5125'
+    -
         groupedColor: '#4E69B2'
         newColor: '#0072C6'
         similarColors:
+            - '#45E5E5'
+            - '#71A5D2'
             - '#0098CE'
             - '#0072C6'
             - '#0065AC'
@@ -79,14 +91,11 @@ list:
         groupedColor: '#CE8559'
         newColor: '#E22741'
         similarColors:
-            - '#EAB669'
             - '#CE7783'
-            - '#F68635'
-            - '#9E5125'
-            - '#ECBE7A'
-            - '#997640'
             - '#E24E63'
-            - '#B8935D'
+            - '#99566C'
+            - '#95515A'
+            - '#804F55'
     -
         groupedColor: '#252526'
         newColor: '#333333'
@@ -103,22 +112,17 @@ list:
             - '#222223'
     -
         groupedColor: '#6B5662'
-        newColor: '#F68635'
+        newColor: '#314C63'
         similarColors:
-            - '#99566C'
             - '#6C6C6C'
             - '#5A5A5A'
             - '#314C63'
-            - '#95515A'
             - '#344F66'
-            - '#804F55'
     -
         groupedColor: '#A5B9C0'
         newColor: '#C8C8C8'
         similarColors:
             - '#E3E3E3'
-            - '#45E5E5'
-            - '#71A5D2'
             - '#658B80'
             - '#C0C0C0'
             - '#8C8C8C'
